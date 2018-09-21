@@ -1,0 +1,11 @@
+/Users/mattsmith/Desktop/unity_socket_client_server/ClientConsole/ClientConsole/bin/Debug/netcoreapp2.1/ClientConsole.deps.json
+/Users/mattsmith/Desktop/unity_socket_client_server/ClientConsole/ClientConsole/bin/Debug/netcoreapp2.1/ClientConsole.runtimeconfig.json
+/Users/mattsmith/Desktop/unity_socket_client_server/ClientConsole/ClientConsole/bin/Debug/netcoreapp2.1/ClientConsole.runtimeconfig.dev.json
+/Users/mattsmith/Desktop/unity_socket_client_server/ClientConsole/ClientConsole/bin/Debug/netcoreapp2.1/ClientConsole.dll
+/Users/mattsmith/Desktop/unity_socket_client_server/ClientConsole/ClientConsole/bin/Debug/netcoreapp2.1/ClientConsole.pdb
+/Users/mattsmith/Desktop/unity_socket_client_server/ClientConsole/ClientConsole/obj/Debug/netcoreapp2.1/ClientConsole.csprojAssemblyReference.cache
+/Users/mattsmith/Desktop/unity_socket_client_server/ClientConsole/ClientConsole/obj/Debug/netcoreapp2.1/ClientConsole.csproj.CoreCompileInputs.cache
+/Users/mattsmith/Desktop/unity_socket_client_server/ClientConsole/ClientConsole/obj/Debug/netcoreapp2.1/ClientConsole.AssemblyInfoInputs.cache
+/Users/mattsmith/Desktop/unity_socket_client_server/ClientConsole/ClientConsole/obj/Debug/netcoreapp2.1/ClientConsole.AssemblyInfo.cs
+/Users/mattsmith/Desktop/unity_socket_client_server/ClientConsole/ClientConsole/obj/Debug/netcoreapp2.1/ClientConsole.dll
+/Users/mattsmith/Desktop/unity_socket_client_server/ClientConsole/ClientConsole/obj/Debug/netcoreapp2.1/ClientConsole.pdb
