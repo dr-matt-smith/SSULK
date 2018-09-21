@@ -45,11 +45,11 @@ Use this to allow someone to interrogate / receive Unity Console logs when quali
 
 ## Meta
 
-Your Name – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@example.com
+Your Name – [@YourTwitter](https://twitter.com/dbader_org) – dr_matt-smith@me.com
 
-Distributed under the XYZ license. See ``LICENSE`` for more information.
+Distributed under the MIT license. See ``LICENSE`` for more information.
 
-[https://github.com/yourname/github-link](https://github.com/dbader/)
+[https://github.com/dr-matt-smith/github-link](https://github.com/dr-matt-smith/)
 
 ## Contributing
 
