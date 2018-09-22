@@ -35,7 +35,7 @@ public class Server3Manager : MonoBehaviour
 		
 		server = GetComponent<Server3>();
 
-		Debug.Log("Startoing Server: ipaddress = " + ipAddress + ", port = " + port);
+		Debug.Log("Starting Server: ipaddress = " + ipAddress + ", port = " + port);
 		
 		IPEndPoint ipEndpoint = new IPEndPoint(IPAddress.Parse(ipAddress), port);
 		
