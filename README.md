@@ -33,8 +33,10 @@ Use this to allow someone to interrogate / receive Unity Console logs when quali
 ## TODO
 
 - get working with .NET 4.5 for Nintendo Switch builds (works with 3.5)
+
 - get Server to send Console Log messages to the Client as they occur (rathan than list / individual ones being requested by Client)
 
+   - solution found? see file [https://github.com/dr-matt-smith/SSULK/blob/master/server_unity/Assets/_Scripts/SocketServer/nextServer.cs](https://github.com/dr-matt-smith/SSULK/blob/master/server_unity/Assets/_Scripts/SocketServer/nextServer.cs)
 
 Use this to allow someone to interrogate / receive Unity Console logs when quality testing a Unity game
 
