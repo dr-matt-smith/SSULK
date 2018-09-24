@@ -17,7 +17,7 @@ using System.Collections.Generic;
 using System.ServiceModel.Channels;
 using UnityEngine.Networking;
 
-class Server3 : MonoBehaviour
+class Server4 : MonoBehaviour
 {
     public LuaSimulator luaSimulator;
     internal class AsyncUserToken
