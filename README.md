@@ -36,7 +36,7 @@ Use this to allow someone to interrogate / receive Unity Console logs when quali
 
 - get Server to send Console Log messages to the Client as they occur (rathan than list / individual ones being requested by Client)
 
-   - solution found? see file [https://github.com/dr-matt-smith/SSULK/blob/master/server_unity/Assets/_Scripts/SocketServer/nextServer.cs](https://github.com/dr-matt-smith/SSULK/blob/master/server_unity/Assets/_Scripts/SocketServer/nextServer.cs)
+   - solution found? see file [https://github.com/dr-matt-smith/SSULK/blob/master/server_unity/Assets/_Scripts/SocketServer/Server4.cs](https://github.com/dr-matt-smith/SSULK/blob/master/server_unity/Assets/_Scripts/SocketServer/Server4.cs)
 
 Use this to allow someone to interrogate / receive Unity Console logs when quality testing a Unity game
 
