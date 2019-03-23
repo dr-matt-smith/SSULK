@@ -9,9 +9,9 @@ using System.Net;
 using System.Net.Sockets;
 using System;
 
-public class Server3Manager : MonoBehaviour
+public class ServerManager : MonoBehaviour
 {
-	private Server3 server;
+	private Server server;
 
 	private int maxConnections = 3;
 	
@@ -31,9 +31,9 @@ public class Server3Manager : MonoBehaviour
 	void Awake ()
 	{
 
-		ipAddress = Server3Manager.GetLocalIPAddress();
+		ipAddress = ServerManager.GetLocalIPAddress();
 		
-		server = GetComponent<Server3>();
+		server = GetComponent<Server>();
 
 		Debug.Log("Starting Server: ipaddress = " + ipAddress + ", port = " + port);
 		

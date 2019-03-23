@@ -26,7 +26,7 @@ public class LogEntry
 		DateTime timestamp = DateTime.Now;
 		m_timestamp = String.Format("{0:u}", timestamp);
 
-		m_ipAddress = Server3Manager.GetLocalIPAddress();
+		m_ipAddress = ServerManager.GetLocalIPAddress();
 
 	}
 

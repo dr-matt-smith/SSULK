@@ -8,6 +8,13 @@ using System.Text;
 
 public class BufferHelper
 {
+    private int m_bufferSize;
+
+    public BufferHelper(int bufferSize)
+    {
+        this.m_bufferSize = bufferSize;
+
+    }
 
     public  String GetMessageInBuffer(SocketAsyncEventArgs asyncEvent)
     {
@@ -19,10 +26,10 @@ public class BufferHelper
     }
 
        
-    public void SetMessage(SocketAsyncEventArgs asyncEvent, string msg, int bufferSize)
+    public void SetMessage(SocketAsyncEventArgs asyncEvent, string msg)
     {
-        int sendBufferLength = bufferSize;
-        if (msg.Length < bufferSize)
+        int sendBufferLength = m_bufferSize;
+        if (msg.Length < m_bufferSize)
         {
             sendBufferLength = msg.Length;
         }

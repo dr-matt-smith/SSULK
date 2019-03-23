@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b3761639-c864-4596-ad3a-88255e974988" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.ClientConsole/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.ClientConsole/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.ClientConsole/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.ClientConsole/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.ClientConsole/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientConsole/UnityClient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ClientConsole/UnityClient.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientConsole/bin/Debug/netcoreapp2.1/ClientConsole.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ClientConsole/bin/Debug/netcoreapp2.1/ClientConsole.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientConsole/bin/Debug/netcoreapp2.1/ClientConsole.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ClientConsole/bin/Debug/netcoreapp2.1/ClientConsole.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientConsole/bin/Debug/netcoreapp2.1/ClientConsole.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/ClientConsole/bin/Debug/netcoreapp2.1/ClientConsole.runtimeconfig.dev.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientConsole/obj/ClientConsole.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ClientConsole/obj/ClientConsole.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientConsole/obj/ClientConsole.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ClientConsole/obj/ClientConsole.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientConsole/obj/Debug/netcoreapp2.1/ClientConsole.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ClientConsole/obj/Debug/netcoreapp2.1/ClientConsole.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientConsole/obj/Debug/netcoreapp2.1/ClientConsole.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ClientConsole/obj/Debug/netcoreapp2.1/ClientConsole.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientConsole/obj/Debug/netcoreapp2.1/ClientConsole.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ClientConsole/obj/Debug/netcoreapp2.1/ClientConsole.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientConsole/obj/Debug/netcoreapp2.1/ClientConsole.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ClientConsole/obj/Debug/netcoreapp2.1/ClientConsole.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientConsole/obj/Debug/netcoreapp2.1/ClientConsole.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ClientConsole/obj/Debug/netcoreapp2.1/ClientConsole.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientConsole/obj/Debug/netcoreapp2.1/ClientConsole.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ClientConsole/obj/Debug/netcoreapp2.1/ClientConsole.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientConsole/obj/Debug/netcoreapp2.1/ClientConsole.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ClientConsole/obj/Debug/netcoreapp2.1/ClientConsole.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientConsole/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ClientConsole/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientConsole/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ClientConsole/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server_unity/Assets/_Scenes/scene3_server3.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server_unity/Assets/_Scenes/scene3_server3.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server_unity/Assets/_Scripts/ConsoleLogHistory/LogEntry.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../server_unity/Assets/_Scripts/ConsoleLogHistory/LogEntry.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server_unity/Assets/_Scripts/SocketServer/BufferHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../server_unity/Assets/_Scripts/SocketServer/BufferHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server_unity/Assets/_Scripts/SocketServer/BufferManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../server_unity/Assets/_Scripts/SocketServer/BufferManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server_unity/Assets/_Scripts/SocketServer/Server3.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server_unity/Assets/_Scripts/SocketServer/Server3.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server_unity/Assets/_Scripts/SocketServer/Server3Manager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server_unity/Assets/_Scripts/SocketServer/Server3Manager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server_unity/Assets/_Scripts/SocketServer/Server4.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server_unity/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../server_unity/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server_unity/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../server_unity/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1799747967">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cs" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cs" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C#" value="14" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ClientConsole/CommandHistory.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1553179210293" expanded="true" signature="36:2144" ph="{...}" />
+                <marker date="1553179210293" expanded="true" signature="43:136" ph="/* class to manage a history of the most recent commands typed in the terminal ... */" />
+                <marker date="1553179210293" expanded="true" signature="168:2142" ph="{...}" />
+                <marker date="1553179210293" expanded="true" signature="424:480" ph="/* add new command to the history ... */" />
+                <marker date="1553179210293" expanded="true" signature="527:764" ph="{...}" />
+                <marker date="1553179210293" expanded="true" signature="564:672" ph="{...}" />
+                <marker date="1553179210293" expanded="true" signature="701:754" ph="{...}" />
+                <marker date="1553179210293" expanded="true" signature="774:829" ph="/* move cursor to top of history ... */" />
+                <marker date="1553179210293" expanded="true" signature="870:916" ph="{...}" />
+                <marker date="1553179210293" expanded="true" signature="926:1001" ph="/* return the command at the current cursor position ... */" />
+                <marker date="1553179210293" expanded="true" signature="1044:1101" ph="{...}" />
+                <marker date="1553179210293" expanded="true" signature="1111:1164" ph="/* move cursor back in history ... */" />
+                <marker date="1553179210293" expanded="true" signature="1198:1298" ph="{...}" />
+                <marker date="1553179210293" expanded="true" signature="1308:1364" ph="/* move cursor forward in history ... */" />
+                <marker date="1553179210293" expanded="true" signature="1401:1502" ph="{...}" />
+                <marker date="1553179210293" expanded="true" signature="1512:1574" ph="/* list all the commands in the history ... */" />
+                <marker date="1553179210293" expanded="true" signature="1612:1864" ph="{...}" />
+                <marker date="1553179210293" expanded="true" signature="1748:1854" ph="{...}" />
+                <marker date="1553179210293" expanded="true" signature="1874:1940" ph="/* display entry at current cursor position ... */" />
+                <marker date="1553179210293" expanded="true" signature="1981:2135" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ClientConsole/UnityClient.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="362" lean-forward="true" selection-start-line="362" selection-end-line="362" />
+              <folding>
+                <marker date="1553359261613" expanded="true" signature="0:173" ph="/* TODO: ... */" />
+                <marker date="1553359261613" expanded="false" signature="181:258" ph="..." />
+                <marker date="1553359261613" expanded="true" signature="281:13111" ph="{...}" />
+                <marker date="1553359261613" expanded="true" signature="285:393" ph="/* class to: ... */" />
+                <marker date="1553359261613" expanded="true" signature="412:13108" ph="{...}" />
+                <marker date="1553359261613" expanded="true" signature="474:698" ph="{...}" />
+                <marker date="1553359261613" expanded="true" signature="785:1151" ph="{...}" />
+                <marker date="1553359261613" expanded="true" signature="1612:1732" ph="{...}" />
+                <marker date="1553359261613" expanded="true" signature="1753:2072" ph="{...}" />
+                <marker date="1553359261613" expanded="true" signature="1795:1996" ph="{...}" />
+                <marker date="1553359261613" expanded="true" signature="1825:1991" ph="/* try ... */" />
+                <marker date="1553359261613" expanded="true" signature="2106:2880" ph="{...}" />
+                <marker date="1553359261613" expanded="true" signature="2111:2194" ph="/* see state in prompt ------ remove &lt;&lt;&lt;&lt;&lt;&lt; ... */" />
+                <marker date="1553359261613" expanded="true" signature="2215:2877" ph="{...}" />
+                <marker date="1553359261613" expanded="true" signature="2885:2935" ph="/* starting user input - display prompt ... */" />
+                <marker date="1553359261613" expanded="true" signature="2976:3188" ph="{...}" />
+                <marker date="1553359261613" expanded="true" signature="3225:3614" ph="{...}" />
+                <marker date="1553359261613" expanded="true" signature="3364:3454" ph="{...}" />
+                <marker date="1553359261613" expanded="true" signature="3518:3610" ph="{...}" />
+                <marker date="1553359261613" expanded="true" signature="3621:3680" ph="/* decide what to do with contents of m_userText ... */" />
+                <marker date="1553359261613" expanded="true" signature="3723:5872" ph="{...}" />
+                <marker date="1553359261613" expanded="true" signature="3878:5767" ph="{...}" />
+                <marker date="1553359261613" expanded="true" signature="5274:5348" ph="{...}" />
+                <marker date="1553359261613" expanded="true" signature="5358:5599" ph="{...}" />
+                <marker date="1553359261613" expanded="true" signature="5918:6658" ph="{...}" />
+                <marker date="1553359261613" expanded="true" signature="5946:6654" ph="{...}" />
+                <marker date="1553359261613" expanded="true" signature="6701:7027" ph="{...}" />
+                <marker date="1553359261613" expanded="true" signature="6729:7023" ph="{...}" />
+                <marker date="1553359261613" expanded="true" signature="7075:7447" ph="{...}" />
+                <marker date="1553359261613" expanded="true" signature="7103:7410" ph="{...}" />
+                <marker date="1553359261613" expanded="true" signature="7502:7813" ph="{...}" />
+                <marker date="1553359261613" expanded="true" signature="7530:7808" ph="{...}" />
+                <marker date="1553359261613" expanded="true" signature="7819:7850" ph="/* CONNECT to server ... */" />
+                <marker date="1553359261613" expanded="true" signature="7912:8616" ph="{...}" />
+                <marker date="1553359261613" expanded="true" signature="7997:8380" ph="{...}" />
+                <marker date="1553359261613" expanded="true" signature="8403:8607" ph="{...}" />
+                <marker date="1553359261613" expanded="true" signature="8621:8660" ph="/* receive message FROM server ... */" />
+                <marker date="1553359261613" expanded="true" signature="8695:9706" ph="{...}" />
+                <marker date="1553359261613" expanded="true" signature="8706:9535" ph="{...}" />
+                <marker date="1553359261613" expanded="true" signature="8763:9530" ph="{...}" />
+                <marker date="1553359261613" expanded="true" signature="8871:9524" ph="{...}" />
+                <marker date="1553359261613" expanded="true" signature="9015:9517" ph="{...}" />
+                <marker date="1553359261613" expanded="true" signature="9578:9702" ph="{...}" />
+                <marker date="1553359261613" expanded="true" signature="9715:9751" ph="/* send message TO server ... */" />
+                <marker date="1553359261613" expanded="true" signature="9808:10688" ph="{...}" />
+                <marker date="1553359261613" expanded="true" signature="9837:10002" ph="{...}" />
+                <marker date="1553359261613" expanded="true" signature="10010:10502" ph="{...}" />
+                <marker date="1553359261613" expanded="true" signature="10133:10497" ph="{...}" />
+                <marker date="1553359261613" expanded="true" signature="10545:10684" ph="{...}" />
+                <marker date="1553359261613" expanded="true" signature="10697:10749" ph="/* ------- console reading stuff -------- ... */" />
+                <marker date="1553359261613" expanded="true" signature="10779:12789" ph="{...}" />
+                <marker date="1553359261613" expanded="true" signature="10787:10898" ph="/* if had an event that displayed text on the console, we need to re-display prompt and any typing ... */" />
+                <marker date="1553359261613" expanded="true" signature="10959:11047" ph="{...}" />
+                <marker date="1553359261613" expanded="true" signature="11171:12770" ph="{...}" />
+                <marker date="1553359261613" expanded="true" signature="11681:11823" ph="{...}" />
+                <marker date="1553359261613" expanded="true" signature="11833:11923" ph="{...}" />
+                <marker date="1553359261613" expanded="true" signature="12214:12331" ph="/* exit this routine and return the Answer to process further ... */" />
+                <marker date="1553359261613" expanded="true" signature="12523:12635" ph="{...}" />
+                <marker date="1553359261613" expanded="true" signature="12645:12726" ph="{...}" />
+                <marker date="1553359261613" expanded="true" signature="12833:13105" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ClientConsole/HistoryConsole.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1553179210294" expanded="true" signature="36:3784" ph="{...}" />
+                <marker date="1553179210294" expanded="true" signature="43:283" ph="/* keep reading characters from Console until ENTER ... */" />
+                <marker date="1553179210294" expanded="true" signature="308:3782" ph="{...}" />
+                <marker date="1553179210294" expanded="true" signature="371:2929" ph="{...}" />
+                <marker date="1553179210294" expanded="true" signature="480:2919" ph="{...}" />
+                <marker date="1553179210294" expanded="true" signature="656:2905" ph="{...}" />
+                <marker date="1553179210294" expanded="true" signature="1398:1602" ph="{...}" />
+                <marker date="1553179210294" expanded="true" signature="1631:1781" ph="{...}" />
+                <marker date="1553179210294" expanded="true" signature="2241:2377" ph="/* exit this routine and return the Answer to process further ... */" />
+                <marker date="1553179210294" expanded="true" signature="2524:2678" ph="/* Console.Write(prompt); ... */" />
+                <marker date="1553179210294" expanded="true" signature="2730:2843" ph="{...}" />
+                <marker date="1553179210294" expanded="true" signature="2942:3437" ph="/// In this function we will clear the currentline: ... " />
+                <marker date="1553179210294" expanded="true" signature="3508:3776" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ClientConsole/ConnectCommandParseResult.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1553179210293" expanded="true" signature="21:427" ph="{...}" />
+                <marker date="1553179210293" expanded="true" signature="28:277" ph="/* structure to represent: ... */" />
+                <marker date="1553179210293" expanded="true" signature="320:425" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ClientConsole/CommandsHelper.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1553179210293" expanded="true" signature="36:4677" ph="{...}" />
+                <marker date="1553179210293" expanded="true" signature="74:4675" ph="{...}" />
+                <marker date="1553179210293" expanded="true" signature="108:323" ph="{...}" />
+                <marker date="1553179210293" expanded="true" signature="477:1655" ph="{...}" />
+                <marker date="1553179210293" expanded="true" signature="1311:1531" ph="{...}" />
+                <marker date="1553179210293" expanded="true" signature="1673:1842" ph="/// parse text from user ... " />
+                <marker date="1553179210293" expanded="true" signature="1923:3404" ph="{...}" />
+                <marker date="1553179210293" expanded="true" signature="2080:2307" ph="/* -------------------------------------------------- BEGIN ... */" />
+                <marker date="1553179210293" expanded="true" signature="2348:2529" ph="{...}" />
+                <marker date="1553179210293" expanded="true" signature="2542:2740" ph="/* ---------------------------------------------------- END ... */" />
+                <marker date="1553179210293" expanded="true" signature="3142:3366" ph="{...}" />
+                <marker date="1553179210293" expanded="true" signature="3462:4649" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ReceiveFromServer</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/ClientConsole/CommandHistory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClientConsole/ConnectCommandParseResult.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClientConsole/UnityClient.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClientConsole/HistoryConsole.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClientConsole/CommandsHelper.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ClientConsole/UnityClient.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="340" />
+    <option name="width" value="1440" />
+    <option name="height" value="560" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="ClientConsole" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="ClientConsole" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ClientConsole" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="ClientConsole" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ClientConsole" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Dependencies" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="ClientConsole" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ClientConsole" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Dependencies" type="24d0babc:SolutionExplorerModelNode" />
+              <item name=".NETCoreApp 2.1" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/ClientConsole/bin/Debug/netcoreapp2.1/ClientConsole.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ClientConsole" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs>
+        <env name="ASPNETCORE_ENVIRONMENT" value="Development" />
+        <env name="ASPNETCORE_URLS" value="http://localhost:5000" />
+      </envs>
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/ClientConsole/ClientConsole.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.1" />
+      <browser url="http://localhost:5000" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b3761639-c864-4596-ad3a-88255e974988" name="Default Changelist" comment="" />
+      <created>1553182132214</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553182132214</updated>
+      <workItem from="1553182134440" duration="2226000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2226000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="340" width="1440" height="560" extended-state="0" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="NuGet" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Build" weight="0.32866243" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6730769" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ClientConsole/HistoryConsole.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1553179210294" expanded="true" signature="36:3784" ph="{...}" />
+            <marker date="1553179210294" expanded="true" signature="43:283" ph="/* keep reading characters from Console until ENTER ... */" />
+            <marker date="1553179210294" expanded="true" signature="308:3782" ph="{...}" />
+            <marker date="1553179210294" expanded="true" signature="371:2929" ph="{...}" />
+            <marker date="1553179210294" expanded="true" signature="480:2919" ph="{...}" />
+            <marker date="1553179210294" expanded="true" signature="656:2905" ph="{...}" />
+            <marker date="1553179210294" expanded="true" signature="1398:1602" ph="{...}" />
+            <marker date="1553179210294" expanded="true" signature="1631:1781" ph="{...}" />
+            <marker date="1553179210294" expanded="true" signature="2241:2377" ph="/* exit this routine and return the Answer to process further ... */" />
+            <marker date="1553179210294" expanded="true" signature="2524:2678" ph="/* Console.Write(prompt); ... */" />
+            <marker date="1553179210294" expanded="true" signature="2730:2843" ph="{...}" />
+            <marker date="1553179210294" expanded="true" signature="2942:3437" ph="/// In this function we will clear the currentline: ... " />
+            <marker date="1553179210294" expanded="true" signature="3508:3776" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientConsole/ConnectCommandParseResult.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1553179210293" expanded="true" signature="21:427" ph="{...}" />
+            <marker date="1553179210293" expanded="true" signature="28:277" ph="/* structure to represent: ... */" />
+            <marker date="1553179210293" expanded="true" signature="320:425" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientConsole/CommandsHelper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1553179210293" expanded="true" signature="36:4677" ph="{...}" />
+            <marker date="1553179210293" expanded="true" signature="74:4675" ph="{...}" />
+            <marker date="1553179210293" expanded="true" signature="108:323" ph="{...}" />
+            <marker date="1553179210293" expanded="true" signature="477:1655" ph="{...}" />
+            <marker date="1553179210293" expanded="true" signature="1311:1531" ph="{...}" />
+            <marker date="1553179210293" expanded="true" signature="1673:1842" ph="/// parse text from user ... " />
+            <marker date="1553179210293" expanded="true" signature="1923:3404" ph="{...}" />
+            <marker date="1553179210293" expanded="true" signature="2080:2307" ph="/* -------------------------------------------------- BEGIN ... */" />
+            <marker date="1553179210293" expanded="true" signature="2348:2529" ph="{...}" />
+            <marker date="1553179210293" expanded="true" signature="2542:2740" ph="/* ---------------------------------------------------- END ... */" />
+            <marker date="1553179210293" expanded="true" signature="3142:3366" ph="{...}" />
+            <marker date="1553179210293" expanded="true" signature="3462:4649" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientConsole/CommandHistory.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1553179210293" expanded="true" signature="36:2144" ph="{...}" />
+            <marker date="1553179210293" expanded="true" signature="43:136" ph="/* class to manage a history of the most recent commands typed in the terminal ... */" />
+            <marker date="1553179210293" expanded="true" signature="168:2142" ph="{...}" />
+            <marker date="1553179210293" expanded="true" signature="424:480" ph="/* add new command to the history ... */" />
+            <marker date="1553179210293" expanded="true" signature="527:764" ph="{...}" />
+            <marker date="1553179210293" expanded="true" signature="564:672" ph="{...}" />
+            <marker date="1553179210293" expanded="true" signature="701:754" ph="{...}" />
+            <marker date="1553179210293" expanded="true" signature="774:829" ph="/* move cursor to top of history ... */" />
+            <marker date="1553179210293" expanded="true" signature="870:916" ph="{...}" />
+            <marker date="1553179210293" expanded="true" signature="926:1001" ph="/* return the command at the current cursor position ... */" />
+            <marker date="1553179210293" expanded="true" signature="1044:1101" ph="{...}" />
+            <marker date="1553179210293" expanded="true" signature="1111:1164" ph="/* move cursor back in history ... */" />
+            <marker date="1553179210293" expanded="true" signature="1198:1298" ph="{...}" />
+            <marker date="1553179210293" expanded="true" signature="1308:1364" ph="/* move cursor forward in history ... */" />
+            <marker date="1553179210293" expanded="true" signature="1401:1502" ph="{...}" />
+            <marker date="1553179210293" expanded="true" signature="1512:1574" ph="/* list all the commands in the history ... */" />
+            <marker date="1553179210293" expanded="true" signature="1612:1864" ph="{...}" />
+            <marker date="1553179210293" expanded="true" signature="1748:1854" ph="{...}" />
+            <marker date="1553179210293" expanded="true" signature="1874:1940" ph="/* display entry at current cursor position ... */" />
+            <marker date="1553179210293" expanded="true" signature="1981:2135" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientConsole/UnityClient.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="362" lean-forward="true" selection-start-line="362" selection-end-line="362" />
+          <folding>
+            <marker date="1553359261613" expanded="true" signature="0:173" ph="/* TODO: ... */" />
+            <marker date="1553359261613" expanded="false" signature="181:258" ph="..." />
+            <marker date="1553359261613" expanded="true" signature="281:13111" ph="{...}" />
+            <marker date="1553359261613" expanded="true" signature="285:393" ph="/* class to: ... */" />
+            <marker date="1553359261613" expanded="true" signature="412:13108" ph="{...}" />
+            <marker date="1553359261613" expanded="true" signature="474:698" ph="{...}" />
+            <marker date="1553359261613" expanded="true" signature="785:1151" ph="{...}" />
+            <marker date="1553359261613" expanded="true" signature="1612:1732" ph="{...}" />
+            <marker date="1553359261613" expanded="true" signature="1753:2072" ph="{...}" />
+            <marker date="1553359261613" expanded="true" signature="1795:1996" ph="{...}" />
+            <marker date="1553359261613" expanded="true" signature="1825:1991" ph="/* try ... */" />
+            <marker date="1553359261613" expanded="true" signature="2106:2880" ph="{...}" />
+            <marker date="1553359261613" expanded="true" signature="2111:2194" ph="/* see state in prompt ------ remove &lt;&lt;&lt;&lt;&lt;&lt; ... */" />
+            <marker date="1553359261613" expanded="true" signature="2215:2877" ph="{...}" />
+            <marker date="1553359261613" expanded="true" signature="2885:2935" ph="/* starting user input - display prompt ... */" />
+            <marker date="1553359261613" expanded="true" signature="2976:3188" ph="{...}" />
+            <marker date="1553359261613" expanded="true" signature="3225:3614" ph="{...}" />
+            <marker date="1553359261613" expanded="true" signature="3364:3454" ph="{...}" />
+            <marker date="1553359261613" expanded="true" signature="3518:3610" ph="{...}" />
+            <marker date="1553359261613" expanded="true" signature="3621:3680" ph="/* decide what to do with contents of m_userText ... */" />
+            <marker date="1553359261613" expanded="true" signature="3723:5872" ph="{...}" />
+            <marker date="1553359261613" expanded="true" signature="3878:5767" ph="{...}" />
+            <marker date="1553359261613" expanded="true" signature="5274:5348" ph="{...}" />
+            <marker date="1553359261613" expanded="true" signature="5358:5599" ph="{...}" />
+            <marker date="1553359261613" expanded="true" signature="5918:6658" ph="{...}" />
+            <marker date="1553359261613" expanded="true" signature="5946:6654" ph="{...}" />
+            <marker date="1553359261613" expanded="true" signature="6701:7027" ph="{...}" />
+            <marker date="1553359261613" expanded="true" signature="6729:7023" ph="{...}" />
+            <marker date="1553359261613" expanded="true" signature="7075:7447" ph="{...}" />
+            <marker date="1553359261613" expanded="true" signature="7103:7410" ph="{...}" />
+            <marker date="1553359261613" expanded="true" signature="7502:7813" ph="{...}" />
+            <marker date="1553359261613" expanded="true" signature="7530:7808" ph="{...}" />
+            <marker date="1553359261613" expanded="true" signature="7819:7850" ph="/* CONNECT to server ... */" />
+            <marker date="1553359261613" expanded="true" signature="7912:8616" ph="{...}" />
+            <marker date="1553359261613" expanded="true" signature="7997:8380" ph="{...}" />
+            <marker date="1553359261613" expanded="true" signature="8403:8607" ph="{...}" />
+            <marker date="1553359261613" expanded="true" signature="8621:8660" ph="/* receive message FROM server ... */" />
+            <marker date="1553359261613" expanded="true" signature="8695:9706" ph="{...}" />
+            <marker date="1553359261613" expanded="true" signature="8706:9535" ph="{...}" />
+            <marker date="1553359261613" expanded="true" signature="8763:9530" ph="{...}" />
+            <marker date="1553359261613" expanded="true" signature="8871:9524" ph="{...}" />
+            <marker date="1553359261613" expanded="true" signature="9015:9517" ph="{...}" />
+            <marker date="1553359261613" expanded="true" signature="9578:9702" ph="{...}" />
+            <marker date="1553359261613" expanded="true" signature="9715:9751" ph="/* send message TO server ... */" />
+            <marker date="1553359261613" expanded="true" signature="9808:10688" ph="{...}" />
+            <marker date="1553359261613" expanded="true" signature="9837:10002" ph="{...}" />
+            <marker date="1553359261613" expanded="true" signature="10010:10502" ph="{...}" />
+            <marker date="1553359261613" expanded="true" signature="10133:10497" ph="{...}" />
+            <marker date="1553359261613" expanded="true" signature="10545:10684" ph="{...}" />
+            <marker date="1553359261613" expanded="true" signature="10697:10749" ph="/* ------- console reading stuff -------- ... */" />
+            <marker date="1553359261613" expanded="true" signature="10779:12789" ph="{...}" />
+            <marker date="1553359261613" expanded="true" signature="10787:10898" ph="/* if had an event that displayed text on the console, we need to re-display prompt and any typing ... */" />
+            <marker date="1553359261613" expanded="true" signature="10959:11047" ph="{...}" />
+            <marker date="1553359261613" expanded="true" signature="11171:12770" ph="{...}" />
+            <marker date="1553359261613" expanded="true" signature="11681:11823" ph="{...}" />
+            <marker date="1553359261613" expanded="true" signature="11833:11923" ph="{...}" />
+            <marker date="1553359261613" expanded="true" signature="12214:12331" ph="/* exit this routine and return the Answer to process further ... */" />
+            <marker date="1553359261613" expanded="true" signature="12523:12635" ph="{...}" />
+            <marker date="1553359261613" expanded="true" signature="12645:12726" ph="{...}" />
+            <marker date="1553359261613" expanded="true" signature="12833:13105" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

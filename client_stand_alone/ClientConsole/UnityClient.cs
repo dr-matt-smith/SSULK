@@ -206,7 +206,7 @@ namespace ConsoleApp2
 					break;
 
 				case CommandsHelper.Command.About:
-					Console.WriteLine("(version 0.1 - Sep 2018) Stand along console client - to connect to Unity Server ");				
+					Console.WriteLine("(version 0.2 - March 2019) Stand alone console client - to connect to Unity Server ");				
 					m_lastEvent = ClientEvent.DisplayedSimpleMessage;
 					break;
 

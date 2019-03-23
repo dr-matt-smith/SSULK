@@ -1,11 +1,7 @@
-﻿
-
-using UnityEngine;
-using System.Collections;
+﻿using UnityEngine;
 
 public class CreateLogMessages : MonoBehaviour
-{
-    	
+{    	
     // Update is called once per frame
     void Update () { 		
         

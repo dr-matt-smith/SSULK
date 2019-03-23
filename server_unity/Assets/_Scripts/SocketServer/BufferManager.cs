@@ -22,6 +22,7 @@ class BufferManager
     int m_bufferSize;
 
 
+
     public BufferManager(int totalBytes, int bufferSize)
     {
         m_numBytes = totalBytes;

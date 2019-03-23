@@ -9,3 +9,14 @@
 /Users/mattsmith/Desktop/unity_socket_client_server/ClientConsole/ClientConsole/obj/Debug/netcoreapp2.1/ClientConsole.AssemblyInfo.cs
 /Users/mattsmith/Desktop/unity_socket_client_server/ClientConsole/ClientConsole/obj/Debug/netcoreapp2.1/ClientConsole.dll
 /Users/mattsmith/Desktop/unity_socket_client_server/ClientConsole/ClientConsole/obj/Debug/netcoreapp2.1/ClientConsole.pdb
+/Users/matt/kill/__unity/SSULK/client_stand_alone/ClientConsole/bin/Debug/netcoreapp2.1/ClientConsole.deps.json
+/Users/matt/kill/__unity/SSULK/client_stand_alone/ClientConsole/bin/Debug/netcoreapp2.1/ClientConsole.runtimeconfig.json
+/Users/matt/kill/__unity/SSULK/client_stand_alone/ClientConsole/bin/Debug/netcoreapp2.1/ClientConsole.runtimeconfig.dev.json
+/Users/matt/kill/__unity/SSULK/client_stand_alone/ClientConsole/bin/Debug/netcoreapp2.1/ClientConsole.dll
+/Users/matt/kill/__unity/SSULK/client_stand_alone/ClientConsole/bin/Debug/netcoreapp2.1/ClientConsole.pdb
+/Users/matt/kill/__unity/SSULK/client_stand_alone/ClientConsole/obj/Debug/netcoreapp2.1/ClientConsole.csprojAssemblyReference.cache
+/Users/matt/kill/__unity/SSULK/client_stand_alone/ClientConsole/obj/Debug/netcoreapp2.1/ClientConsole.csproj.CoreCompileInputs.cache
+/Users/matt/kill/__unity/SSULK/client_stand_alone/ClientConsole/obj/Debug/netcoreapp2.1/ClientConsole.AssemblyInfoInputs.cache
+/Users/matt/kill/__unity/SSULK/client_stand_alone/ClientConsole/obj/Debug/netcoreapp2.1/ClientConsole.AssemblyInfo.cs
+/Users/matt/kill/__unity/SSULK/client_stand_alone/ClientConsole/obj/Debug/netcoreapp2.1/ClientConsole.dll
+/Users/matt/kill/__unity/SSULK/client_stand_alone/ClientConsole/obj/Debug/netcoreapp2.1/ClientConsole.pdb

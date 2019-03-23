@@ -681,23 +681,23 @@
     ]
   },
   "packageFolders": {
-    "/Users/mattsmith/.nuget/packages/": {},
+    "/Users/matt/.nuget/packages/": {},
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mattsmith/Desktop/unity_socket_client_server/ClientConsole/ClientConsole/ClientConsole.csproj",
+      "projectUniqueName": "/Users/matt/kill/__unity/SSULK/client_stand_alone/ClientConsole/ClientConsole.csproj",
       "projectName": "ClientConsole",
-      "projectPath": "/Users/mattsmith/Desktop/unity_socket_client_server/ClientConsole/ClientConsole/ClientConsole.csproj",
-      "packagesPath": "/Users/mattsmith/.nuget/packages/",
-      "outputPath": "/Users/mattsmith/Desktop/unity_socket_client_server/ClientConsole/ClientConsole/obj/",
+      "projectPath": "/Users/matt/kill/__unity/SSULK/client_stand_alone/ClientConsole/ClientConsole.csproj",
+      "packagesPath": "/Users/matt/.nuget/packages/",
+      "outputPath": "/Users/matt/kill/__unity/SSULK/client_stand_alone/ClientConsole/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/mattsmith/.config/NuGet/NuGet.Config"
+        "/Users/matt/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"

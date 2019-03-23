@@ -17,7 +17,7 @@ using System.Collections.Generic;
 using System.ServiceModel.Channels;
 using UnityEngine.Networking;
 
-class Server4 : MonoBehaviour
+class Server : MonoBehaviour
 {
     public LuaSimulator luaSimulator;
     internal class AsyncUserToken
@@ -35,6 +35,8 @@ class Server4 : MonoBehaviour
     int m_totalBytesRead;           // counter of the total # bytes received by the server
     int m_numConnectedSockets;      // the total number of clients connected to the server 
     Semaphore m_maxNumberAcceptedClients;
+
+    private BufferHelper m_bufferHelper;
 
     private bool shutDown = false;
 
@@ -57,7 +59,9 @@ class Server4 : MonoBehaviour
         m_bufferManager = new BufferManager(receiveBufferSize * numConnections * opsToPreAlloc, receiveBufferSize);
   
         m_readWritePool = new SocketAsyncEventArgsPool(numConnections);
-        m_maxNumberAcceptedClients = new Semaphore(numConnections, numConnections); 
+        m_maxNumberAcceptedClients = new Semaphore(numConnections, numConnections);
+
+        m_bufferHelper = new BufferHelper(m_receiveBufferSize);
     }
 
     // Initializes the server by preallocating reusable buffers and 
@@ -127,27 +131,6 @@ class Server4 : MonoBehaviour
             
             args.SetBuffer(null, 0, 0);
         }
-        
-//        // clear Tokens/sockets for all active client sockets
-//        foreach(var args in activeClientSockets)
-//        {
-////            args.SetBuffer(null, 0, 0);
-////            AsyncUserToken token = args.UserToken as AsyncUserToken;
-////
-//            // try to shutdown this active socket
-//            try
-//            {
-//                token.Socket.Shutdown(SocketShutdown.Send);
-//            }
-//            // throws if client process has already closed
-//            catch (Exception) { }
-//
-//            // token.Socket.Close(); // getting NULL errors here 
-//            if(null != token){
-//                Socket s = token.Socket;
-//                SafeCloseSocket(token.Socket);
-//            }
-//        }
         
         activeClientSockets.ForEach(socket =>
         {
@@ -287,7 +270,7 @@ class Server4 : MonoBehaviour
             //increment the count of the total bytes receive by the server
             Interlocked.Add(ref m_totalBytesRead, e.BytesTransferred);
 
-            string msg = m_bufferManager.GetMessageInBuffer(e);
+            string msg = m_bufferHelper.GetMessageInBuffer(e);
 //            Debug.Log("(1) received: '" + msg + "' : The server has read a total of " + m_totalBytesRead + " bytes");
 
             ProcessClientMessage(e, token, msg);
@@ -305,7 +288,7 @@ class Server4 : MonoBehaviour
     private void ProcessClientMessage(SocketAsyncEventArgs e, AsyncUserToken token, string messageFromClient)
     {
         string messageToClient = MessageToReturn(messageFromClient);
-        m_bufferManager.SetMessage(e, messageToClient);
+        m_bufferHelper.SetMessage(e, messageToClient);
         bool willRaiseEvent = token.Socket.SendAsync(e);
         if (!willRaiseEvent)
         {
@@ -359,9 +342,6 @@ class Server4 : MonoBehaviour
 
     private void CloseClientSocket(SocketAsyncEventArgs e)
     {
-
-//        Debug.Log(e.ToString());
-      
         AsyncUserToken token = e.UserToken as AsyncUserToken;
         activeClientSockets.Remove(token.Socket);
 
@@ -398,7 +378,7 @@ class Server4 : MonoBehaviour
         // create new buffer for this SocketAsyncEventArgs object
         sendOnceArgs.SetBuffer(new byte[m_receiveBufferSize], 0, m_receiveBufferSize);
         
-        m_bufferManager.SetMessage(sendOnceArgs, message);
+        m_bufferHelper.SetMessage(sendOnceArgs, message);
         
         // copy socket from e.UserToken to our sendOnceArgs object
         AsyncUserToken token = new AsyncUserToken();
@@ -407,35 +387,20 @@ class Server4 : MonoBehaviour
         // SEND message to Client
         token.Socket = socket;
         token.Socket.SendAsync(sendOnceArgs);
-
-        // do NOT invoke ProcessSend() if Synchronous send
-//        bool willRaiseEvent = token.Socket.SendAsync(args);        
-//        if (!willRaiseEvent)
-//        {
-//            ProcessSend(args);    
-//        }            
+         
         
     }
+
     ///
     /// send the message to all connected clients
     ///
     private void BroadcastToAllConnectedClients(string message)
     {
-        activeClientSockets.ForEach(socket =>
-        {
-//            SocketAsyncEventArgs o = (SocketAsyncEventArgs) argsObject;
-//        ((AsyncUserToken)readEventArgs.UserToken)
-//            AsyncUserToken token = (AsyncUserToken)argsObject.UserToken;
-//            Socket socket = token.AcceptSocket;
-            SendOnce(socket, message);
-        });
-        
-//        foreach (var argsObject in activeClientSockets)
-//        {
-//            SocketAsyncEventArgs o = (SocketAsyncEventArgs) argsObject;
-//            Socket socket = o.UserToken.Socket;
-//            SendOnce(socket, message);
-//        }
+        activeClientSockets.ForEach(
+            socket => {
+                SendOnce(socket, message);
+            }
+       );
     }
 
     
